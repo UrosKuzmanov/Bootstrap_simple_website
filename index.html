@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/leaflet/leaflet.css">
+</head>
+
+
+<body>
+    <div class="wrapper">
+
+        <header class="header container-fluid p-3">
+            <div class="row ">
+                <div class="logo col-10 col-xl-4">
+                    <p class="display-6 m-0">My Website</p>
+                </div>
+                <nav class=" nav d-none d-xl-flex col-md-8 justify-content-end"> 
+                    <a class="text-uppercase text-decoration-none mx-2" href="">home</a>
+                    <a class="text-uppercase text-decoration-none mx-2" href="">portfolio</a>
+                    <a class="text-uppercase text-decoration-none mx-2" href="">staff</a>
+                    <a class="text-uppercase text-decoration-none mx-2" href="">features</a>
+                    <a class="text-uppercase text-decoration-none mx-2" href="">blog</a> 
+                    <a class="text-uppercase text-decoration-none mx-2" href="">contact</a> 
+                    <a class="text-uppercase text-decoration-none mx-2" href="">download</a>   
+                </nav>
+                <div class="hamburger_menu p-0 col-2 d-xl-none d-flex justify-content-center  ">
+                    <img src="./imgs/menu.png" alt="">     
+                </div>
+            </div>
+        </header>
+
+        <section class="hero text-light">
+            <div class=" hero_content container-fluid p-0">
+                <div class="row w-100 align-items-center m-0">
+                    <header class="position-relative col-12 p-0 w-100 text-center " >
+                        <img src="./imgs/hero.jpg" alt="">
+                        <div class="hero_title_wrapper position-absolute  p-2">
+                            <p class="m-0">We strive to make all of our creations exquisite</p>
+                        </div>    
+                    </header>
+                </div>
+            </div>   
+        </section>
+
+        <section class="about_section">
+            <div class="section_wrapper">
+                <div class="about container-fluid">
+                    <div class="row py-5">
+                        <div class="col-12 col-xl-3 text-center my-3">
+                            <img src="./imgs/icon-1.png" alt="" class="mb-2">
+                            <h2 class="my-2">Purpose</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus deserunt, esse fugiat ad.</p>
+                        </div>
+                        <div class="col-12 col-xl-3 text-center my-3">
+                            <img src="./imgs/icon-2.png" alt="" class="mb-2">
+                            <h2 class="my-2">Quality</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus deserunt, esse fugiat ad.</p>
+                        </div>
+                        <div class="col-12 col-xl-3 text-center my-3">
+                            <img src="./imgs/icon-3.png" alt="" class="mb-2">
+                            <h2 class="my-2">Function</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus deserunt, esse fugiat ad.</p>
+                        </div>
+                        <div class="col-12 col-xl-3 text-center my-3">
+                            <img src="./imgs/icon-4.png" alt="" class="mb-2">
+                            <h2 class="my-2">Elegant</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae temporibus deserunt, esse fugiat ad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent_section">
+            <div class="section_wrapper">
+                <div class="recent_work container-fluid">
+                    <div class="row mt-5">
+                        <header class="col-12 mb-3">
+                            <h2>RECENT WORK</h2>
+                            <div class="underline"></div>
+                        </header>
+                        <section class="col-12 col-md-6 col-xl-3 mt-3 text-center">
+                            <img src="./imgs/bike-400x340.jpg" alt="">
+                            <header>
+                                <a href=""><h3 class="my-2">Green Bike</h3></a>
+                                <p>Beautiful, Travel</p>    
+                            </header>
+                        </section>
+                        <section class="col-12 col-md-6 col-xl-3 mt-3 text-center">
+                            <img src="./imgs/surf-400x340.jpg" alt="">
+                            <header>
+                                <a href=""><h3 class="my-2">Salt Of The Earth</h3></a>
+                                <p>Beautiful, Travel</p>
+                            </header>
+                        </section>
+                        <section class="col-12 col-md-6 col-xl-3 mt-3 text-center">
+                            <img src="./imgs/hills-400x340.jpg" alt="">
+                            <header>
+                                <a href="#"><h3 class="my-2">Mountain High</h3></a>
+                                <p>Travel</p>
+                            </header>                           
+                        </section>
+                        <section class="col-12 col-md-6 col-xl-3 mt-3 text-center">                           
+                            <img src="./imgs/path-400x340.jpg" alt="">
+                            <header>
+                                <a href="#"><h3 class="my-2">When A Tree Falls</h3></a>
+                                <p>Beautiful</p>
+                            </header>                            
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_blog">
+            <div class=" section_wrapper mx-auto">
+                <div class="blog container-fluid">
+                    <div class="row mt-5">
+                        <header class="col-12  mb-3">
+                            <h2>FROM THE BLOG</h2>
+                            <div class="underline"></div>
+                        </header>
+                        <section class="col-12 col-xl-4 mt-3">                          
+                                <img src="./imgs/cow-640x340.jpg" alt="">
+                                <header>
+                                    <a href=""><h3 class="mt-3">HOW NOW</h3></a>
+                                </header>
+                                <p class="p_posted">Posted on October 28, 2020</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum aliquid sint, aperiam tempora dicta sit nemo minima quaerat ex!</p>                            
+                        </section>
+                        <section class="col-12 col-xl-4 mt-3">                    
+                                <img src="./imgs/sunrise-640x340.jpg" alt="">
+                                <header> 
+                                    <a href="#"><h3 class="mt-3">Adrift Simon Christen</h3></a>
+                                </header>
+                                <p class="p_posted">Posted on September 29, 2020</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum aliquid sint, aperiam tempora dicta sit nemo minima quaerat ex!</p>                           
+                        </section>
+                        <section class="col-12 col-xl-4 mt-3">                    
+                                <img src="./imgs/grass-640x340.jpg" alt="">
+                                <header>
+                                    <a href=""><h3 class="mt-3">A Walk in The Park</h3></a>
+                                </header> 
+                                <p class="p_posted">Posted on August 10, 2020</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum aliquid sint, aperiam tempora dicta sit nemo minima quaerat ex!</p>                         
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_footer">
+            <div class="section_wrapper">
+                <footer class="footer container-fluid ">
+                    <div class="row p-3 mt-5">
+                        <div class="col-12 col-xl-4 my-5">
+                            <h2>My Website</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod amet ullam sapiente expedita consequatur ad quos minus, in assumenda molestias reprehenderit quo ea, corrupti earum aspernatur quas dolore fugiat cupiditate.</p>
+                        </div>   
+                        <section class="footer_recent col-12 col-xl-4 my-5">
+                            <div>
+                                <h2 class="mb-3">Recent Post</h2>
+                            </div>
+                            <div><a href="#">How Now</a></div>
+                            <div><a href="#">Adrift Simon Christen</a></div>
+                            <div><a href="#">Walk in The Park</a></div>
+                            <div><a href="#">Time to Think</a></div>
+                            <div><a href="#">Field Of Dreams</a></div>
+                        </section>
+                        <section class="footer_recent col-12 col-xl-4 my-5">
+                            <div>
+                                <h2 class="mb-3">Recent Work</h2>
+                            </div>
+                            <div><a href="#">Beautiful</a></div>
+                            <div><a href="#">Travel</a></div>
+                            <div><a href="#">Surreal</a></div>
+                            <div><a href="#">Thoughts</a></div>
+                            <div><a href="#">Unique</a></div>
+                        </section>
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <section class="copy_r container-fluid">
+            <div class="row">
+                <header class=" col-12 text-center">
+                    <p>&copy; 2021 Uros Kuzmanov</p>
+                </header>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
